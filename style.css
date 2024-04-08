@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    background-color: blue;
+    width: 300px;
+    border-radius: 5px solid black;
+    padding: 3px;
+    margin-left: 650px;
+    margin-top: 100px;
+}
+
+#output {
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.bt1 {
+    gap: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bt2 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.clear {
+    width: 92px;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    padding: 3px;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.text {
+    margin-top: 10px;
+    width: 220px;
+    height: 50px;
+    border-radius: 10px;
+    border: solid;
+    background: grey;
+    text-align: right;
+    margin-left: 35px;
+    margin-bottom: 10px;
+}

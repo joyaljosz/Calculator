@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Calculator</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 style="text-align: center;">CALCULATOR</h1>
+        <div id="display">
+            <input type="text" placeholder="0" id="output">
+        </div>
+        <div class="bt1">
+            <div class="bt2">
+                <button class="clear" onclick="clr()">CLEAR</button>
+
+                <button class="clear" onclick="del()">DELETE</button>
+            </div>
+        </div>
+
+
+        <div class="cal">
+
+            <div class="row1">
+
+                <button class="numbers" id="seven" onclick="datadisp(7)">7</button>
+                <button class="numbers" id="eight" onclick="datadisp(8)">8</button>
+                <button class="numbers" id="nine" onclick="datadisp(9)">9</button>
+                <button class="operator" id="division" onclick="datadisp('/')">/</button>
+
+
+            </div>
+
+            <div class="row1">
+
+                <button class="numbers" id="four" onclick="datadisp(4)">4</button>
+                <button class="numbers" id="five" onclick="datadisp(5)">5</button>
+                <button class="numbers" id="six" onclick="datadisp(6)">6</button>
+                <button class="operator" id="mult" onclick="datadisp('*')">*</button>
+
+            </div>
+
+            <div class="row1">
+
+                <button class="numbers" id="one" onclick="datadisp(1)">1</button>
+                <button class="numbers" id="two" onclick="datadisp(2)">2</button>
+                <button class="numbers" id="three" onclick="datadisp(3)">3</button>
+                <button class="op" id="sub" onclick="datadisp('-')">-</button>
+
+            </div>
+
+            <div class="row1">
+
+                <button class="numbers" id="zero" onclick="datadisp(0)">0</button>
+                <button class="numbers" id="decimal" onclick="datadisp('.')">.</button>
+                <button class="numbers" id="equals" onclick="result()">=</button>
+                <button class="operator" id="add" onclick="datadisp('+')">+</button>
+            </div>
+
+
+        </div>
+
+
+
+    </div>
+
+
+
+</body>
+
+</html>
